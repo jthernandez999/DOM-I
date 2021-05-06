@@ -92,8 +92,9 @@ console.log(bottomContent)
 const ctaText = document.querySelector('h1')
 ctaText.textContent = 'DOM Is Awesome'
 
-// const middleImg = document.getElementById("middle-img");
-// middleImg.setAttribute('src', siteContent["middle-img"]["img-src"]);
+const middleImg = document.getElementById("middle-img");
+
+middleImg.setAttribute('src', siteContent["middle-img"] ["img-src"]);
 
 const paragraphs = document.querySelectorAll('p')
 
