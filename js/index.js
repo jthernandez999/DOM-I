@@ -51,9 +51,16 @@ const headerFeatures = document.querySelectorAll('h4')[0];
 
 headerFeatures.textContent = 'Features'
 
+const featuresP = document.querySelectorAll('p')[0]
+featuresP.textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
 const headerAbout = document.querySelectorAll('h4')[1];
 
 headerAbout.textContent = 'About'
+
+const aboutP = document.querySelectorAll('p')[1]
+aboutP.textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
 
 const ctaImage = document.getElementById("cta-img");
 ctaImage.setAttribute('src', siteContent["cta"] ["img-src"])
@@ -63,12 +70,32 @@ const headerServices = document.querySelectorAll('.text-content h4')[2];
 
 headerServices.textContent = 'Services'
 
+const servicesP = document.querySelectorAll('p')[2]
+servicesP.textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
 const headerProduct = document.querySelectorAll('.text-content h4')[3];
 
 headerProduct.textContent = 'Product'
+
+const productP = document.querySelectorAll('p')[3]
+productP.textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
 
 const headerVision = document.querySelectorAll('.text-content h4')[4];
 
 headerVision.textContent = 'Vision'
 
+const visionP = document.querySelectorAll('p')[4]
+visionP.textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
 console.log(bottomContent)
+
+const ctaText = document.querySelector('h1')
+ctaText.textContent = 'DOM Is Awesome'
+
+// const middleImg = document.getElementById("middle-img");
+// middleImg.setAttribute('src', siteContent["middle-img"]["img-src"]);
+
+const paragraphs = document.querySelectorAll('p')
+
+console.log(paragraphs)
+
