@@ -42,8 +42,11 @@ let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 
-let navBar = document.querySelectorAll('nav > a');
-navBar.textContent 
+let navServices = document.querySelectorAll('nav')[0];
+navServices.textContent = 'Services'
+
+
+
 
 const bottomContent = document.querySelectorAll('.text-content h4')
 
@@ -93,10 +96,13 @@ const ctaText = document.querySelector('h1')
 ctaText.textContent = 'DOM Is Awesome'
 
 const middleImg = document.getElementById("middle-img");
-
-middleImg.setAttribute('src', siteContent["middle-img"] ["img-src"]);
+console.log(middleImg)
+middleImg.setAttribute('src', siteContent["main-content"] ["middle-img-src"]);
 
 const paragraphs = document.querySelectorAll('p')
 
-console.log(paragraphs)
+const button = document.querySelectorAll('.cta .cta-text button')[0]
+console.log(button)
+button.textContent = 'Get Started'
+
 
