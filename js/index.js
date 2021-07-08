@@ -124,3 +124,6 @@ email.textContent = siteContent['contact']['email']
 let footer = document.querySelector('footer p')
 console.log(footer)
 footer.textContent = siteContent['footer']['copyright']
+
+
+//completed mvp
